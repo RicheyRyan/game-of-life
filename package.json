@@ -11,13 +11,13 @@
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "autoprefixer": "^10.2.6",
-    "postcss": "^k.3.5",
-    "solid-js": "^1.0.0",
+    "postcss": "^8.3.5",
     "tailwindcss": "^2.2.4",
     "vite": "^2.3.8",
     "vite-plugin-solid": "^2.0.0"
   },
   "dependencies": {
+    "solid-js": "^1.0.0",
     "ts-pattern": "^3.3.3"
   }
 }

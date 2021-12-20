@@ -2,22 +2,20 @@ lockfileVersion: 5.3
 
 specifiers:
   '@tailwindcss/aspect-ratio': ^0.2.1
-  add: ^2.0.6
   autoprefixer: ^10.2.6
   postcss: ^8.3.5
-  solid-js: ^1.0.0
+  solid-js: ^1.2.6
   tailwindcss: ^2.2.4
   ts-pattern: ^3.3.3
   vite: ^2.3.8
   vite-plugin-solid: ^2.0.0
 
 dependencies:
-  '@tailwindcss/aspect-ratio': 0.2.1_tailwindcss@2.2.16
-  add: 2.0.6
-  solid-js: 1.0.0
+  solid-js: 1.2.6
   ts-pattern: 3.3.3
 
 devDependencies:
+  '@tailwindcss/aspect-ratio': 0.2.1_tailwindcss@2.2.16
   autoprefixer: 10.3.6_postcss@8.3.5
   postcss: 8.3.5
   tailwindcss: 2.2.16_2b2e41afa004d39b8bb6836ba9657222
@@ -343,7 +341,7 @@ packages:
       tailwindcss: '>=2.0.0'
     dependencies:
       tailwindcss: 2.2.16_2b2e41afa004d39b8bb6836ba9657222
-    dev: false
+    dev: true
 
   /@types/parse-json/4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -367,10 +365,6 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
-
-  /add/2.0.6:
-    resolution: {integrity: sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=}
-    dev: false
 
   /ansi-styles/3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
@@ -1225,6 +1219,11 @@ packages:
 
   /solid-js/1.0.0:
     resolution: {integrity: sha512-5huTDVyMqZSjg5Sa4mwl15feK4il1cE68n4weL5NYGC8lX2wiDlcHhBdSB8trKgaJ50Q9/pwtLrQngFaDC+5Tw==}
+    dev: true
+
+  /solid-js/1.2.6:
+    resolution: {integrity: sha512-NvPHJ5Vj5f+ZJWIioickrC55seovSkDtm5NzSpnoUk3z4tATv0STpy5iuGNEn51ZORUcwpZzrMAtOCGziXU1XA==}
+    dev: false
 
   /solid-refresh/0.2.1_solid-js@1.0.0:
     resolution: {integrity: sha512-8iqVw+FxDUj5CQnadAD+D5bLlzA/yBhMx2rHECGN2e3IQGtBArNdBUHduPBPpqfnufvnP2IwszLhgcg/IdABQQ==}

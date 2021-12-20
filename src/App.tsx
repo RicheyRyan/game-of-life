@@ -65,8 +65,8 @@ const App: Component = () => {
     const columnNumber = i % boardSpan();
     setGameState(
       produce((state: GameState) => {
-        // console.log(rowNumber, columnNumber);
-        // console.log(state.board[rowNumber][columnNumber]);
+        console.log(rowNumber, columnNumber);
+        console.log(state.board[rowNumber][columnNumber]);
         state.board[rowNumber][columnNumber] =
           !state.board[rowNumber][columnNumber];
       })
